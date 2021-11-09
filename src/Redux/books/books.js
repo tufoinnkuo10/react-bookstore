@@ -6,7 +6,7 @@ const Booksec = () => (
       <h2>Book List</h2>
       <button type="button">Remove</button>
     </div>
-    <input type="text" name="addBooks" placeholder="Book Title" />
+    <input type="text" name="addBooks" placeholder="Enter Book Title" />
     <button type="button">Add Book</button>
   </>
 );
