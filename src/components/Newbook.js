@@ -39,7 +39,7 @@ const AddBook = () => {
         value={author}
         placeholder="Book Author"
       />
-      <button type="submit">Add Books</button>
+      <button type="submit">Add Book</button>
     </form>
   );
 };
