@@ -6,19 +6,19 @@ import { addBook } from '../Redux/books/books';
 const AddBook = () => {
   const dispatch = useDispatch();
   const [title, setTitle] = useState('');
-  const [author, setAuthor] = useState('');
+  const [category, setCategory] = useState('');
 
   const submitBookToStore = (e) => {
     e.preventDefault();
-    if (title === '' || author === '') return;
+    if (title === '' || category === '') return;
     const newBook = {
       id: uuidv4(),
       title,
-      author,
+      category,
     };
     dispatch(addBook(newBook));
     setTitle('');
-    setAuthor('');
+    setCategory('');
   };
 
   return (
@@ -35,9 +35,9 @@ const AddBook = () => {
         type="text"
         name="author"
         id="author"
-        onChange={(e) => setAuthor(e.target.value)}
-        value={author}
-        placeholder="Book Author"
+        onChange={(e) => setCategory(e.target.value)}
+        value={category}
+        placeholder="Book Category"
       />
       <button type="submit">Add Book</button>
     </form>
