@@ -23,4 +23,15 @@ export const addBookToApi = async (book) => {
   (await response.text());
 };
 
-
+export const removeBookFrmApi = async (id) => {
+  const response = await fetch(`${baseUrl}/${id}`, {
+    method: 'DELETE',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      item_id: id,
+    }),
+  });
+  (await response.text());
+};
