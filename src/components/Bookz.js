@@ -1,5 +1,5 @@
 import { useDispatch } from 'react-redux';
-import { removeBook } from '../redux/books/books';
+import { removeBook } from '../Redux/books/books';
 
 const Differentbooks = (prop) => {
   const { title, author, id } = prop;
