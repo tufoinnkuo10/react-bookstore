@@ -1,7 +1,8 @@
 import AddBook from './Newbook';
 import Differentbooks from './Bookz';
 
-const BooksPage = (prop) => {
+// book section
+const Booksec = (prop) => {
   const { data } = prop;
 
   return (
@@ -18,4 +19,4 @@ const BooksPage = (prop) => {
   );
 };
 
-export default BooksPage;
+export default Booksec;
