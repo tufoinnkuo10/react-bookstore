@@ -3,3 +3,56 @@
   margin: 0;
   padding: 0;
 }
+
+.navigation-bar {
+  display: flex;
+  width: 87.5rem;
+  height: 5.938rem;
+  margin: 0 0 2.375rem;
+  padding: 1.438rem 6.188rem 1.688rem 6.25rem;
+  background-color: hsl(11deg 80% 38% / 8%);;
+}
+
+.main-heading {
+  height: 2.313rem;
+  margin: 0.375rem 2.938rem 0.125rem 0;
+  font-family: Montserrat;
+  font-size: 1.875rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: rgb(65, 120, 223);
+}
+
+.thelinks {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+
+}
+
+.ho a{
+  font-family: Montserrat;
+    font-weight: normal;
+    color: rgb(26, 24, 24);
+    text-decoration: none;
+    margin: 2rem;
+}
+
+.ca a{
+  font-family: Montserrat;
+  font-weight: normal;
+  color: rgb(118 113 113);
+  text-decoration: none;
+}
+
+.navigation-bar span {
+  width: 2.813rem;
+  height: 2.813rem;
+  font-size: 3rem;
+  color: cornflowerblue;
+  margin-left: 30rem;
+}
