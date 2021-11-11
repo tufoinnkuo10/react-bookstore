@@ -1,4 +1,4 @@
-import { fetchBookFrmApi, addBookToApi, removeBookFrmApi } from '../../components/myApi';
+import { fetchBookFrmApi, addBookToApi, removeBookFrmApi } from './myApi';
 
 const ADD_BOOK = 'bookStore/books/ADD_BOOK';
 const REMOVE_BOOK = 'bookStore/books/REMOVE_BOOK';
