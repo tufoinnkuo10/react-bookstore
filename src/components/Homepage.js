@@ -1,16 +1,22 @@
+import { useSelector } from 'react-redux';
 import AddBook from './Newbook';
 import Differentbooks from './Bookz';
 
 // book section
-const Booksec = (prop) => {
-  const { data } = prop;
+const Booksec = () => {
+  const { booksReducer } = useSelector((state) => state);
 
   return (
     <>
       <div className="books-container d-flex">
         <div>
-          {data.map((book) => (
-            <Differentbooks key={book.id} title={book.title} author={book.author} id={book.id} />
+          {booksReducer.map((book) => (
+            <Differentbooks
+              key={book.id}
+              title={book.title}
+              category={book.category}
+              id={book.id}
+            />
           ))}
         </div>
       </div>
