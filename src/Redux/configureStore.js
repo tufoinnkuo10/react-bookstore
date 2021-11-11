@@ -12,6 +12,6 @@ const store = createStore(
   applyMiddleware(logger, thunk),
 );
 
-store.dispatch(initializeBooks([1, 2, 3, 4]));
+store.dispatch(initializeBooks([1, 2, 3, 4, 5, 6]));
 
 export default store;

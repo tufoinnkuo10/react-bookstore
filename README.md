@@ -7,7 +7,8 @@ A simple React app that collects books and adds them .
 > App has a home page and a category page
 > Books added can also be removed as well
 > The Books author and title are been displayed
-> 
+> Books are stored and gotten from an Api
+
 note:still being developed
 
 # BUILT WITH
