@@ -25,6 +25,7 @@ A simple React app that collects and displays books
 > React , Redux
 
 # Live links
+> [Netlify-link](tufoins-bookstore.netlify.app)
 # Author
 TUFOIN NKUO
 
