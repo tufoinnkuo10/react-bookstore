@@ -3,23 +3,30 @@
 # Project Name
 React Redux Bookstore
 
-A simple React app that collects books and adds them .
+A simple React app that collects and displays books
 > App has a home page and a category page
 > Books added can also be removed as well
-> The Books author and title are been displayed
+> The Books author and Category are been displayed
 > Books are stored and gotten from an Api
+> Unwanted books can be removed
+> App styled according to recommended style in Zeplin
 
-note:still being developed
+# LIVE PREVIEW
+> ![demo-gif](./images/bookstore.gif)
 
 # BUILT WITH
 - LANGUAGE:
 > JavaScript
+> Html
+> Css
 - FRAMEWORK:
 >
 - LIBRARY: 
 > React , Redux
 
 # Live links
+# Author
+TUFOIN NKUO
 
 ## Available Scripts
 
