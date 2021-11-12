@@ -11,16 +11,22 @@ A simple React app that collects and displays books
 > Unwanted books can be removed
 > App styled according to recommended style in Zeplin
 
+# LIVE PREVIEW
+> ![demo-gif](./images/bookstore.gif)
 
 # BUILT WITH
 - LANGUAGE:
 > JavaScript
+> Html
+> Css
 - FRAMEWORK:
 >
 - LIBRARY: 
 > React , Redux
 
 # Live links
+# Author
+TUFOIN NKUO
 
 ## Available Scripts
 
