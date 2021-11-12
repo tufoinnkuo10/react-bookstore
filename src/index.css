@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -35,7 +37,7 @@ body {
   letter-spacing: normal;
   color: rgb(6, 86, 233);
   padding-top: 1rem;
-  padding-left: 2rem
+  padding-left: 2rem;
 }
 
 .thelinks {
@@ -187,7 +189,6 @@ body {
 
 .display-container:hover {
   border: 1px solid rgb(6, 86, 233);
-  ;
 }
 
 .breakk {
@@ -203,8 +204,6 @@ body {
   font-size: 4.5rem;
   padding: 2rem;
 }
-
-/*.percentage-sec {}*/
 
 .percentage {
   font-size: 3rem;
@@ -239,7 +238,7 @@ body {
 .chapter {
   padding-top: 1rem;
   font-size: 1.5rem;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .updateprogress {
